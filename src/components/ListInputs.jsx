@@ -8,6 +8,7 @@ export const ListInputs = ({ addItem }) => {
       name: 'Roasted Turkey',
       category: 'Deli',
       deliveryMethod: 'Ground',
+      selected: false
     }
 
     addItem(item);
